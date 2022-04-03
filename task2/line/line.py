@@ -10,5 +10,5 @@ class Line:
         self.y2 = y2
 
     # this implements the __str__ function
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.x1},{self.y1},{self.x2},{self.y2}"

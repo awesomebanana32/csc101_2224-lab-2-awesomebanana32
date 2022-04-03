@@ -9,5 +9,5 @@ class Vehicle:
         self.roof = roof
 
     # implement the __str__ function
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.wheels},{self.fuel},{self.doors},{self.roof}"
