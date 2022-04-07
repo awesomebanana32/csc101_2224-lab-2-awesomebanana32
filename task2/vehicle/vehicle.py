@@ -1,7 +1,7 @@
 # this is the Vehicle class
 class Vehicle:
     # implements the __init__ function
-    def __init__(self,wheels,fuel,doors,roof):
+    def __init__(self,wheels:int,fuel:float,doors:int,roof:bool):
 
         self.wheels = wheels
         self.fuel = fuel
